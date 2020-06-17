@@ -1,0 +1,15 @@
+left side bar background color
+#302C44
+green neon color
+#8DC849
+
+side bar menu items color
+#7D798F
+active menu items background color
+#29253B
+
+Dashbord title color
+#6641B1
+
+Dashboard info section background color
+#F4F6FA
