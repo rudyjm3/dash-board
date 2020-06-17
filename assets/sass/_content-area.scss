@@ -1,0 +1,17 @@
+#content-area {
+  margin-left: 25%;
+  padding: 50px;
+  .heading {
+    .main-heading {
+      color: $purple;
+      font-weight: 600;
+      font-size: 2rem;
+      margin: 20px 0;
+    }
+    .sub-heading {
+      color: $grey;
+      font-size: 1.2;
+      margin-bottom: 20px;
+    }
+  }
+}

@@ -9,6 +9,7 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link href="/css/main.css" rel="stylesheet">
 </head>
 
 <body>
@@ -18,14 +19,12 @@
       <h1>Go Jobs</h1>
     </div>
     <div class="nav">
-      <ul>
-        <li><a href="#"><i class="fa fa-home side-menu-icon" aria-hidden="true"></i> Home</a></li>
-        <li><a href="#"><i class="fa fa-book side-menu-icon" aria-hidden="true"></i> Applied History</a></li>
-        <li><a href="#"><i class="fa fa-bookmark-o side-menu-icon" aria-hidden="true"></i> Jobs Bookmarks</a></li>
-        <li><a href="#"><i class="fa fa-calendar side-menu-icon" aria-hidden="true"></i> Interview Schedule</a></li>
-        <li><a href="#"><i class="fa fa-user side-menu-icon" aria-hidden="true"></i> Profile</a></li>
-        <li><a href="#"><i class="fa fa-cog side-menu-icon" aria-hidden="true"></i> Settings</a></li>
-      </ul>
+      <a href="#" class="active"><i class="fa fa-home side-menu-icon" aria-hidden="true"></i> Home</a>
+      <a href="#"><i class="fa fa-book side-menu-icon" aria-hidden="true"></i> Applied History</a>
+      <a href="#"><i class="fa fa-bookmark-o side-menu-icon" aria-hidden="true"></i> Jobs Bookmarks</a>
+      <a href="#"><i class="fa fa-calendar side-menu-icon" aria-hidden="true"></i> Interview Schedule</a>
+      <a href="#"><i class="fa fa-user side-menu-icon" aria-hidden="true"></i> Profile</a>
+      <a href="#"><i class="fa fa-cog side-menu-icon" aria-hidden="true"></i> Settings</a>
     </div>
   </div>
   <div class="container header-container">
@@ -36,15 +35,97 @@
     <div class="user-section">
       <a href="#"><i class="fa fa-plus" aria-hidden="true"></i>
         Add</a>
-      <a href="#"><i class="fa fa-bell-o" aria-hidden="true"></i>
+      <a href="#" class="notification"><i class="fa fa-bell-o" aria-hidden="true"></i>
         <span class="notification-num">3</span></a>
-      <img src="#https://randomuser.me/api/portraits/women/82.jpg" />
+      <a href="#" class="user-image
+
+      ">
+        <img src="https://randomuser.me/api/portraits/women/82.jpg" />
+      </a>
       <a href="#"><i class="fa fa-caret-down" aria-hidden="true"></i></a>
     </div>
 
     </div>
   </div>
 
+  <section id="content-area">
+    <div class="heading">
+      <h1 class="main-heading">Dashboard</h1>
+      <h3 class="sub-heading">Welcome to Gojobs job seeker dashboard</h3>
+    </div>
 
+    <div class="cards-container">
+      <div class="card card-one">
+        <div class="user-img"></div>
+        <div class="user-name">My Name</div>
+        <div class="user-title">Full-Stack Developer</div>
+        <hr>
+        <div class="col-md-4">
+          <span class="education">Education</span>
+        </div>
+        <div class="col-md-4">
+          <span class="schools">High School</span>
+          <span class="schools">Community College</span>
+        </div>
+
+      </div>
+      <div class="card card-two">
+        <h6>Interview Schedule</h6><span class="menu-icon">3dot icon</span>
+        <span class="date">June 20, 2020</span>
+        <div class="col-md-2">
+          <span class="icon">IT</span>
+        </div>
+        <div class="col-md-10">
+          <span class="company">Best Buy HQ</span>
+          <span class="position">Lead UI/UX Designer</span>
+          <span class="time">09:30 AM</span>
+        </div>
+      </div>
+
+      <div class="card card-three">
+        <h6>Interview Schedule</h6><span class="menu-icon">3dot icon</span>
+        <span class="date">June 20, 2020</span>
+        <div class="col-md-2">
+          <span class="icon">IT</span>
+        </div>
+        <div class="col-md-10">
+          <span class="company">Best Buy HQ</span>
+          <span class="position">Lead UI/UX Designer</span>
+          <span class="time">09:30 AM</span>
+        </div>
+      </div>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>
+            Company
+          </th>
+          <th>
+            Jobs
+          </th>
+          <th>
+            End of Application
+          </th>
+          <th>
+            Location
+          </th>
+          <th>
+            Menu icon
+          </th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Online Shopping</td>
+          <td>Java Developer</td>
+          <td>June 23, 2019</td>
+          <td>New York, NY</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
 </body>
 </html>
