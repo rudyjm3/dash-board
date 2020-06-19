@@ -20,8 +20,8 @@ body {
   top: 0;
   bottom: 0;
   background: $purpleLight;
-  max-width: 25%;
-  width: 25%;
+  max-width: 20%;
+  width: 20%;
   .side-menu-title{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -40,7 +40,7 @@ body {
     text-decoration: none;
     color: $purpleGrey;
     display: block;
-    padding: 15px 30px;
+    padding: 15px 30px 15px 10px;
     font-weight: 300;
     transition: all 0.3s ease-in-out;
 
@@ -48,13 +48,13 @@ body {
       background: $purpleDark;
       border-left: 3px solid $neonGreen;
       color: white;
-      padding: 15px 30px 15px 28px;
+      padding: 15px 30px 15px 10px;
     }
     &.active {
       background: $purpleDark;
       border-left: 3px solid $neonGreen;
       color: white;
-      padding: 15px 30px 15px 28px;
+      padding: 15px 30px 15px 10px;
     }
     .side-menu-icon {
       color: $neonGreen;
@@ -68,11 +68,11 @@ body {
 /* ========== START HEADER STYLING ================*/
 .header-container {
   background: white;
-  margin-left: 25%;
+  margin-left: 20%;
   display: inline-block;
   padding: 15px;
   font-family: 'Roboto', sans-serif;
-  width: 75%;
+  width: 80%;
   .serach-area {
     display: inline-block;
     width: 50%;
